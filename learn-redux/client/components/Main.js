@@ -1,17 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from "react-router" 
-
-// const  Main = React.createClass({
-//     render() {
-//         return (
-//             <div>
-//                 <h1>
-//                     Hi
-//                </h1>
-//             </div>
-//         )
-//     }
-// })
+import { Link } from "react-router";
 
 // React.createClass 与 ES6 语法糖的区别
 // https://toddmotto.com/react-create-class-versus-component/ 
@@ -25,8 +13,8 @@ class Main extends Component {
             <div>
                 <h1>
                     <Link to="/">Baixiaoji</Link>
-               </h1>
-               {React.cloneElement( this.props.children, this.props) }
+                </h1>
+                {React.cloneElement(this.props.children, this.props)}
             </div>
         )
     }

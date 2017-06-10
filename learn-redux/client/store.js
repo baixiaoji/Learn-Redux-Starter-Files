@@ -18,6 +18,6 @@ const defaultStore = {
 //createStore的参数第一个 redux  第二个 store
 const store = createStore(rootReducer,defaultStore)
 
-export const History = syncHistoryWithStore(browserHistory,store)
+export const history = syncHistoryWithStore(browserHistory,store)
 
 export default store;

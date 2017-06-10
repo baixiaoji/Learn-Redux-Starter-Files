@@ -11,6 +11,7 @@ import React, { Component } from 'react';
 //         )
 //     }
 // })
+
 // React.createClass 与 ES6 语法糖的区别
 // https://toddmotto.com/react-create-class-versus-component/ 
 class Main extends Component {

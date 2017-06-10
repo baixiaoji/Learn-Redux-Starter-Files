@@ -6,13 +6,13 @@ export function increment(index){
     }
 }
 // add comment
-export function addComent(postid,author,comment){
+export function addComment(postid,author,comment){
+    console.log(author , comment)
     return {
         type: "ADD_COMMENT",
         postid,
         author,
         comment
-
     }
 }
 // remove comment

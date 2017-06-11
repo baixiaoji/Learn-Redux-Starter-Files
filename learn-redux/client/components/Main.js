@@ -14,6 +14,7 @@ class Main extends Component {
                 <h1>
                     <Link to="/">Baixiaoji</Link>
                 </h1>
+                {/*这里有特殊化*/}
                 {React.cloneElement(this.props.children, this.props)}
             </div>
         )
